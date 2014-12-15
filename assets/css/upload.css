@@ -1,0 +1,102 @@
+.U_general_blok{
+	width: 300px;
+	height: 330px;
+}
+
+input.U_file{display: none !important;}
+
+.U_dropBox {
+	width: inherit;
+	height: 200px;
+
+	background-color: #F7F9FF;
+      /*border: 10px solid #CEF1E7;*/
+      min-width: 100%;
+      min-height: 40px;
+}
+
+.U_container {
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.U_dropBox,
+.U_container,
+.U_img_container,
+a.U_fancybox_img,
+.U_img_container img {
+      max-width: inherit;
+      max-height: inherit;
+}
+
+.U_img_container img {display: none;}
+
+.U_textCleanBox{
+	min-height: inherit;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	height:100%;
+	padding:0 5px;
+	overflow:hidden;
+	font-size: 125%;
+}
+
+.U_div_link{
+      min-width: 100%;
+      max-width: inherit;
+      min-height: inherit;
+      /*background: white;*/
+}
+
+.U_div_link a {
+      color: #000;
+      text-decoration: none;
+      display: block;
+      padding-top: 10px;
+}
+
+.U_block_buttons{width: 100%;}
+
+.U_block_buttons div input[type='button']{
+      width: 100%;
+}
+
+div.U_blok_progress {
+      margin: 20px 20px;
+	display: none;
+}
+
+div.U_loading {
+	background-image: url('../pic/loading.gif');
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 5px;
+	height: 24px;
+	width: 24px;
+	display: none;
+}
+
+span.sr-only {position: initial;}
+
+.U_button_edit input[type='button'],
+.U_button_delete input[type='button'],
+.U_button_upload input[type='button']{
+	border: none;
+	-moz-border-radius: 7px;
+      -webkit-border-radius: 7px;
+      -khtml-border-radius:7px;
+      border-radius: 7px;
+	margin-top: 2px;
+}
+
+.U_data_file{margin: 3px;}
+.U_name_file{margin-top: 2px;}
+.U_size_file{margin-top: 2px;}
+.U_weight_file{margin-top: 2px;}
+
+.listNameFilesStore{display: none}

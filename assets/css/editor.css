@@ -1,0 +1,95 @@
+.U_div_button{
+	height: 45px;
+}
+.U_div_button div.pull-left input{
+	width: 120px;
+}
+.U_div_button div.pull-right input{
+	width: 130px;
+}
+.U_div_button input{
+	margin: 2px;
+}
+.U_popup_close_editorImage {
+      position: fixed;
+      right: 0;
+      top: 0;
+      font-size: 15px;
+      line-height: 28px;
+      cursor: pointer;
+}
+
+.U_popup_close_editorImage .cl {
+      font-size: 28px;
+}
+
+.U_popup_close_editorImage span {
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.U_wrap_overflow_editorImage {
+      /*position: absolute;*/
+      text-align: left;
+      margin-left: 165px;
+      overflow-y: auto;
+}
+
+.U_inline_labels{
+	padding-left: 20px;
+}
+
+.U_inline_labels input{
+	display: inherit;
+      margin: 0px 5px 0px;
+	height: 25px;
+	width: 50px;
+      text-align: center; /* Выравнивание по центру */
+}
+
+.E_list_history {
+      width: 160px;
+      position: absolute;
+      overflow-y: auto;
+      max-height: 500px;
+}
+
+.E_list_history:hover {
+      background:khaki;
+}
+
+.U_div_list_button{
+      margin: -20px 0px 0px 0px;
+      position: absolute;
+      right: 5px;
+}
+
+.U_list_button_restore {
+	/*      height: 22px;
+		width: 22px;*/
+}
+
+.U_list_button_delete{
+	font-size: 18px;
+	background: none;
+	border: none;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	margin-top: 5px;
+}
+
+#U_sliderdiv{
+      width: 200px;
+      margin: -16px 0px 0px 440px;
+      margin-left: 450px;
+      position: relative;
+}
+
+div.watermark{
+      border:1px dashed #000;
+}
+
+img.watermark:hover{
+      cursor:move;
+}

@@ -1,0 +1,21 @@
+/** Подключение к проекту */
+Создаем в main.php controllerMap или ели он уже есть подключаем в него контроллеры.
+
+	'controllerMap'=>array(
+		'fileuploaderserverlogic'=>array(
+		    'class'=>'ext.FileUploader.ServerLogicController',
+		),
+		'fileuploadereditor'=>array(
+		    'class'=>'ext.FileUploader.EditorFileUploaderController',
+		),
+		// прочие контроллеры
+	),
+
+
+/** Просмотр демо-версий использования */
+	После подключения расширения переходим посылке
+	http://{ваш_сайт}/fileuploadereditor/demo
+	где описаны разные варианты использования.
+
+/** Выгрузка на фтп */
+	При выгрузке на ФТП открыть доступ на запись к папке runtime и для всех вложенных папок и файлов.
